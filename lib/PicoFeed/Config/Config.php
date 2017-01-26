@@ -38,6 +38,7 @@ namespace PicoFeed\Config;
  * @method  string     getClientUserAgent()
  * @method  integer    getMaxRedirections()
  * @method  integer    getMaxBodySize()
+ * @method  boolean    getNullProxy()
  * @method  string     getProxyHostname()
  * @method  integer    getProxyPort()
  * @method  string     getProxyUsername()

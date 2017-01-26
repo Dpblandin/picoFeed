@@ -656,6 +656,13 @@ abstract class Client
         return $this;
     }
 
+    public function setNullProxy($value)
+    {
+        $this->null_proxy = $value;
+
+        return $this;
+    }
+
     /**
      * Set config object.
      *
@@ -674,6 +681,7 @@ abstract class Client
             $this->setProxyPort($config->getProxyPort());
             $this->setProxyUsername($config->getProxyUsername());
             $this->setProxyPassword($config->getProxyPassword());
+            $this->setNullProxy($config->getNullProxy());
         }
 
         return $this;
