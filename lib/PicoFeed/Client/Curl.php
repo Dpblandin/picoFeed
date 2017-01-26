@@ -162,7 +162,7 @@ class Curl extends Client
      */
     private function prepareProxyContext($ch)
     {
-        if ($this->force_null_proxy) {
+        if ($this->null_proxy) {
             Logger::setMessage(get_called_class().' with NULL Proxy');
             curl_setopt($ch, CURLOPT_PROXY, null);
 

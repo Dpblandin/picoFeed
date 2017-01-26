@@ -11,7 +11,7 @@ namespace PicoFeed\Config;
  * @method  \PicoFeed\Config\Config setClientUserAgent(string $value)
  * @method  \PicoFeed\Config\Config setMaxRedirections(integer $value)
  * @method  \PicoFeed\Config\Config setMaxBodySize(integer $value)
- * @method  \PicoFeed\Config\Config ForceNullProxy(boolean $value)
+ * @method  \PicoFeed\Config\Config setNullProxy(boolean $value)
  * @method  \PicoFeed\Config\Config setProxyHostname(string $value)
  * @method  \PicoFeed\Config\Config setProxyPort(integer $value)
  * @method  \PicoFeed\Config\Config setProxyUsername(string $value)

@@ -96,7 +96,7 @@ abstract class Client
      *
      * @var boolean
      */
-    protected $force_null_proxy = false;
+    protected $null_proxy = false;
 
     /**
      * Basic auth username.
