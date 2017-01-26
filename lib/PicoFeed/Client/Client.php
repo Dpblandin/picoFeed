@@ -92,6 +92,13 @@ abstract class Client
     protected $proxy_password = '';
 
     /**
+     * Force proxy to null
+     *
+     * @var boolean
+     */
+    protected $force_null_proxy = false;
+
+    /**
      * Basic auth username.
      *
      * @var string
